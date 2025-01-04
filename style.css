@@ -10,14 +10,17 @@ body {
   background-color: hsl(47, 88%, 63%);
   font-family: "figtree", serif;
   overflow: hidden;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
 }
-article {
+main {
   font-size: 1.6rem;
   font-weight: 500;
   background-color: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 42%);
-  width: 38rem;
-  margin: 8rem auto;
+  max-width: 38rem;
+/*   margin: 8rem auto; */
   padding: 2rem;
   border: 1px solid black;
   border-radius: 20px;
